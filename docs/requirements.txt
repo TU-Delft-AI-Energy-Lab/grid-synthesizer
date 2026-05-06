@@ -1,0 +1,16 @@
+sphinx
+sphinx-autoapi
+sphinx-rtd-theme
+furo
+sphinx-math-dollar
+sphinxcontrib.bibtex
+
+nbsphinx
+nbsphinx_link
+
+pygments
+pypandoc
+myst-parser
+ipython
+
+docutils

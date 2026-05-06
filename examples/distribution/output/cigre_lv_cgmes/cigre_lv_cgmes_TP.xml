@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#">
+    <md:FullModel rdf:about="urn:uuid:network_N_TOPOLOGY_2026-04-17T14:11:50Z_1_1D__FM">
+        <md:Model.scenarioTime>2026-04-17T14:11:50Z</md:Model.scenarioTime>
+        <md:Model.created>2026-04-17T14:11:50Z</md:Model.created>
+        <md:Model.description>TP Model</md:Model.description>
+        <md:Model.version>1</md:Model.version>
+        <md:Model.DependentOn rdf:resource="urn:uuid:network_N_EQUIPMENT_2026-04-17T14:11:50Z_1_1D__FM"/>
+        <md:Model.profile>http://entsoe.eu/CIM/Topology/4/1</md:Model.profile>
+        <md:Model.modelingAuthoritySet>powsybl.org</md:Model.modelingAuthoritySet>
+    </md:FullModel>
+    <cim:TopologicalNode rdf:ID="_bus_0">
+        <cim:IdentifiedObject.name>Bus 0</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_0"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_20_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_1">
+        <cim:IdentifiedObject.name>Bus R0</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_1"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_20_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_2">
+        <cim:IdentifiedObject.name>Bus R1</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_2"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_3">
+        <cim:IdentifiedObject.name>Bus R2</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_3"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_4">
+        <cim:IdentifiedObject.name>Bus R3</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_4"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_5">
+        <cim:IdentifiedObject.name>Bus R4</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_5"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_6">
+        <cim:IdentifiedObject.name>Bus R5</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_6"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_7">
+        <cim:IdentifiedObject.name>Bus R6</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_7"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_8">
+        <cim:IdentifiedObject.name>Bus R7</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_8"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_9">
+        <cim:IdentifiedObject.name>Bus R8</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_9"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_10">
+        <cim:IdentifiedObject.name>Bus R9</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_10"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_11">
+        <cim:IdentifiedObject.name>Bus R10</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_11"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_12">
+        <cim:IdentifiedObject.name>Bus R11</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_12"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_13">
+        <cim:IdentifiedObject.name>Bus R12</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_13"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_14">
+        <cim:IdentifiedObject.name>Bus R13</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_14"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_15">
+        <cim:IdentifiedObject.name>Bus R14</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_15"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_16">
+        <cim:IdentifiedObject.name>Bus R15</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_16"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_17">
+        <cim:IdentifiedObject.name>Bus R16</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_17"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_18">
+        <cim:IdentifiedObject.name>Bus R17</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_18"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_19">
+        <cim:IdentifiedObject.name>Bus R18</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_19"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_20">
+        <cim:IdentifiedObject.name>Bus I0</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_20"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_20_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_21">
+        <cim:IdentifiedObject.name>Bus I1</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_21"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_22">
+        <cim:IdentifiedObject.name>Bus I2</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_22"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_23">
+        <cim:IdentifiedObject.name>Bus C0</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_23"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_20_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_24">
+        <cim:IdentifiedObject.name>Bus C1</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_24"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_25">
+        <cim:IdentifiedObject.name>Bus C2</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_25"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_26">
+        <cim:IdentifiedObject.name>Bus C3</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_26"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_27">
+        <cim:IdentifiedObject.name>Bus C4</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_27"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_28">
+        <cim:IdentifiedObject.name>Bus C5</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_28"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_29">
+        <cim:IdentifiedObject.name>Bus C6</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_29"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_30">
+        <cim:IdentifiedObject.name>Bus C7</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_30"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_31">
+        <cim:IdentifiedObject.name>Bus C8</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_31"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_32">
+        <cim:IdentifiedObject.name>Bus C9</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_32"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_33">
+        <cim:IdentifiedObject.name>Bus C10</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_33"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_34">
+        <cim:IdentifiedObject.name>Bus C11</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_34"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_35">
+        <cim:IdentifiedObject.name>Bus C12</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_35"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_36">
+        <cim:IdentifiedObject.name>Bus C13</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_36"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_37">
+        <cim:IdentifiedObject.name>Bus C14</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_37"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_38">
+        <cim:IdentifiedObject.name>Bus C15</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_38"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_39">
+        <cim:IdentifiedObject.name>Bus C16</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_39"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_40">
+        <cim:IdentifiedObject.name>Bus C17</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_40"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_41">
+        <cim:IdentifiedObject.name>Bus C18</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_41"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_42">
+        <cim:IdentifiedObject.name>Bus C19</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_42"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:TopologicalNode rdf:ID="_bus_43">
+        <cim:IdentifiedObject.name>Bus C20</cim:IdentifiedObject.name>
+        <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_sub_43"/>
+        <cim:TopologicalNode.BaseVoltage rdf:resource="#_0.4_BV"/>
+    </cim:TopologicalNode>
+    <cim:Terminal rdf:about="#_load_22_6_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_22"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_15_16_13_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_15"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_15_16_13_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_16"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_42_13_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_42"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_4_5_2_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_4"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_4_5_2_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_5"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_3_4_1_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_3"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_3_4_1_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_4"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_19_5_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_19"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_29_30_23_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_29"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_29_30_23_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_30"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_1_2_37_PT_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_1"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_1_2_37_PT_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_2"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_10_18_15_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_10"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_10_18_15_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_18"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_27_28_21_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_27"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_27_28_21_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_28"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_20_21_38_PT_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_20"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_20_21_38_PT_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_21"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_26_27_20_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_26"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_26_27_20_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_27"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_34_35_28_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_34"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_34_35_28_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_35"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_38_39_32_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_38"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_38_39_32_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_39"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_5_13_10_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_5"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_5_13_10_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_13"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_26_33_26_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_26"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_26_33_26_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_33"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_gen_0_0_SM_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_0"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_31_42_35_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_31"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_31_42_35_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_42"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_18_4_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_18"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_28_38_31_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_28"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_28_38_31_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_38"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_39_41_34_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_39"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_39_41_34_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_41"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_8_9_6_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_8"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_8_9_6_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_9"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_30_31_24_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_30"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_30_31_24_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_31"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_41_12_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_41"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_5_6_3_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_5"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_5_6_3_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_6"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_2_3_0_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_2"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_2_3_0_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_3"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_13_14_11_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_13"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_13_14_11_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_14"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_21_22_17_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_21"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_21_22_17_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_22"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_24_7_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_24"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_6_7_4_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_6"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_6_7_4_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_7"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_2_0_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_2"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_25_26_19_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_25"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_25_26_19_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_26"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_36_9_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_36"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_32_43_36_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_32"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_32_43_36_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_43"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_17_3_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_17"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_11_19_16_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_11"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_11_19_16_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_19"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_37_10_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_37"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_28_29_22_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_28"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_28_29_22_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_29"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_43_14_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_43"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_10_11_8_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_10"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_10_11_8_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_11"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_7_17_14_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_7"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_7_17_14_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_17"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_14_15_12_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_14"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_14_15_12_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_15"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_33_37_30_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_33"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_33_37_30_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_37"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_9_10_7_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_9"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_9_10_7_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_10"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_4_12_9_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_4"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_4_12_9_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_12"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_23_24_39_PT_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_23"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_23_24_39_PT_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_24"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_40_11_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_40"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_24_25_18_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_24"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_24_25_18_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_25"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_7_8_5_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_7"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_7_8_5_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_8"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_34_36_29_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_34"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_34_36_29_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_36"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_38_40_33_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_38"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_38_40_33_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_40"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_35_8_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_35"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_16_2_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_16"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_31_32_25_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_31"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_31_32_25_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_32"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_load_12_1_EC_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_12"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_33_34_27_ACLS_T_1">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_33"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_33_34_27_ACLS_T_2">
+        <cim:Terminal.TopologicalNode rdf:resource="#_bus_34"/>
+    </cim:Terminal>
+</rdf:RDF>

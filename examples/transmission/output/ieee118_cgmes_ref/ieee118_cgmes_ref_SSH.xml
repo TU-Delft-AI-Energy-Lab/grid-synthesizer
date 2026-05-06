@@ -1,0 +1,2781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:entsoe="http://entsoe.eu/CIM/SchemaExtension/3/1#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#">
+    <md:FullModel rdf:about="urn:uuid:ieee118cdf_N_STEADY_STATE_HYPOTHESIS_1993-08-25T00:00:00Z_1_1D__FM">
+        <md:Model.scenarioTime>1993-08-25T00:00:00Z</md:Model.scenarioTime>
+        <md:Model.created>2026-04-17T14:10:44Z</md:Model.created>
+        <md:Model.description>SSH Model</md:Model.description>
+        <md:Model.version>1</md:Model.version>
+        <md:Model.DependentOn rdf:resource="urn:uuid:ieee118cdf_N_EQUIPMENT_1993-08-25T00:00:00Z_1_1D__FM"/>
+        <md:Model.profile>http://entsoe.eu/CIM/SteadyStateHypothesis/1/1</md:Model.profile>
+        <md:Model.modelingAuthoritySet>powsybl.org</md:Model.modelingAuthoritySet>
+    </md:FullModel>
+    <cim:EnergyConsumer rdf:about="#_B1-L">
+        <cim:EnergyConsumer.p>51</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>27</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B2-L">
+        <cim:EnergyConsumer.p>20</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>9</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B3-L">
+        <cim:EnergyConsumer.p>39</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B4-L">
+        <cim:EnergyConsumer.p>30</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>12</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B6-L">
+        <cim:EnergyConsumer.p>52</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>22</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B7-L">
+        <cim:EnergyConsumer.p>19</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>2</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B11-L">
+        <cim:EnergyConsumer.p>70</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>23</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B12-L">
+        <cim:EnergyConsumer.p>47</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B13-L">
+        <cim:EnergyConsumer.p>34</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>16</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B14-L">
+        <cim:EnergyConsumer.p>14</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>1</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B15-L">
+        <cim:EnergyConsumer.p>90</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>30</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B16-L">
+        <cim:EnergyConsumer.p>25</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B17-L">
+        <cim:EnergyConsumer.p>11</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B18-L">
+        <cim:EnergyConsumer.p>60</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>34</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B19-L">
+        <cim:EnergyConsumer.p>45</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>25</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B20-L">
+        <cim:EnergyConsumer.p>18</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B21-L">
+        <cim:EnergyConsumer.p>14</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>8</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B22-L">
+        <cim:EnergyConsumer.p>10</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>5</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B23-L">
+        <cim:EnergyConsumer.p>7</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B27-L">
+        <cim:EnergyConsumer.p>62</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>13</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B28-L">
+        <cim:EnergyConsumer.p>17</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B29-L">
+        <cim:EnergyConsumer.p>24</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>4</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B31-L">
+        <cim:EnergyConsumer.p>43</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>27</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B32-L">
+        <cim:EnergyConsumer.p>59</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>23</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B33-L">
+        <cim:EnergyConsumer.p>23</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>9</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B34-L">
+        <cim:EnergyConsumer.p>59</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>26</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B35-L">
+        <cim:EnergyConsumer.p>33</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>9</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B36-L">
+        <cim:EnergyConsumer.p>31</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>17</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B39-L">
+        <cim:EnergyConsumer.p>27</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>11</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B40-L">
+        <cim:EnergyConsumer.p>20</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>23</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B41-L">
+        <cim:EnergyConsumer.p>37</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B42-L">
+        <cim:EnergyConsumer.p>37</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>23</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B43-L">
+        <cim:EnergyConsumer.p>18</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B44-L">
+        <cim:EnergyConsumer.p>16</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>8</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B45-L">
+        <cim:EnergyConsumer.p>53</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>22</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B46-L">
+        <cim:EnergyConsumer.p>28</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B47-L">
+        <cim:EnergyConsumer.p>34</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>0</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B48-L">
+        <cim:EnergyConsumer.p>20</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>11</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B49-L">
+        <cim:EnergyConsumer.p>87</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>30</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B50-L">
+        <cim:EnergyConsumer.p>17</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>4</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B51-L">
+        <cim:EnergyConsumer.p>17</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>8</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B52-L">
+        <cim:EnergyConsumer.p>18</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>5</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B53-L">
+        <cim:EnergyConsumer.p>23</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>11</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B54-L">
+        <cim:EnergyConsumer.p>113</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>32</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B55-L">
+        <cim:EnergyConsumer.p>63</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>22</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B56-L">
+        <cim:EnergyConsumer.p>84</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>18</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B57-L">
+        <cim:EnergyConsumer.p>12</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B58-L">
+        <cim:EnergyConsumer.p>12</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B59-L">
+        <cim:EnergyConsumer.p>277</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>113</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B60-L">
+        <cim:EnergyConsumer.p>78</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B62-L">
+        <cim:EnergyConsumer.p>77</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>14</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B66-L">
+        <cim:EnergyConsumer.p>39</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>18</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B67-L">
+        <cim:EnergyConsumer.p>28</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B70-L">
+        <cim:EnergyConsumer.p>66</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>20</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B74-L">
+        <cim:EnergyConsumer.p>68</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>27</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B75-L">
+        <cim:EnergyConsumer.p>47</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>11</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B76-L">
+        <cim:EnergyConsumer.p>68</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>36</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B77-L">
+        <cim:EnergyConsumer.p>61</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>28</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B78-L">
+        <cim:EnergyConsumer.p>71</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>26</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B79-L">
+        <cim:EnergyConsumer.p>39</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>32</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B80-L">
+        <cim:EnergyConsumer.p>130</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>26</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B82-L">
+        <cim:EnergyConsumer.p>54</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>27</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B83-L">
+        <cim:EnergyConsumer.p>20</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B84-L">
+        <cim:EnergyConsumer.p>11</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B85-L">
+        <cim:EnergyConsumer.p>24</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>15</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B86-L">
+        <cim:EnergyConsumer.p>21</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B88-L">
+        <cim:EnergyConsumer.p>48</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B90-L">
+        <cim:EnergyConsumer.p>78</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>42</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B92-L">
+        <cim:EnergyConsumer.p>65</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>10</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B93-L">
+        <cim:EnergyConsumer.p>12</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B94-L">
+        <cim:EnergyConsumer.p>30</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>16</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B95-L">
+        <cim:EnergyConsumer.p>42</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>31</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B96-L">
+        <cim:EnergyConsumer.p>38</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>15</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B97-L">
+        <cim:EnergyConsumer.p>15</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>9</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B98-L">
+        <cim:EnergyConsumer.p>34</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>8</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B100-L">
+        <cim:EnergyConsumer.p>37</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>18</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B101-L">
+        <cim:EnergyConsumer.p>22</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>15</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B102-L">
+        <cim:EnergyConsumer.p>5</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B103-L">
+        <cim:EnergyConsumer.p>23</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>16</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B104-L">
+        <cim:EnergyConsumer.p>38</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>25</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B105-L">
+        <cim:EnergyConsumer.p>31</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>26</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B106-L">
+        <cim:EnergyConsumer.p>43</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>16</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B107-L">
+        <cim:EnergyConsumer.p>28</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>12</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B108-L">
+        <cim:EnergyConsumer.p>2</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>1</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B109-L">
+        <cim:EnergyConsumer.p>8</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B110-L">
+        <cim:EnergyConsumer.p>39</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>30</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B112-L">
+        <cim:EnergyConsumer.p>25</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>13</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B114-L">
+        <cim:EnergyConsumer.p>8</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>3</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B115-L">
+        <cim:EnergyConsumer.p>22</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>7</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B117-L">
+        <cim:EnergyConsumer.p>20</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>8</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:about="#_B118-L">
+        <cim:EnergyConsumer.p>33</cim:EnergyConsumer.p>
+        <cim:EnergyConsumer.q>15</cim:EnergyConsumer.q>
+    </cim:EnergyConsumer>
+    <cim:SynchronousMachine rdf:about="#_B1-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B4-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>9</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B6-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B8-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>28</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B10-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-450</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B12-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-85</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B15-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B18-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B19-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B24-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>13</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B25-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-220</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B26-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-314</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B27-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>9</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B31-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-7</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B32-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B34-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B36-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B40-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>46</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B42-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>59</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B46-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-19</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B49-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-204</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B54-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-48</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B55-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B56-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B59-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-155</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B61-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-160</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B62-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B65-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-391</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B66-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-392</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B69-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-516.4</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B70-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B72-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>12</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B73-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>6</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B74-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B76-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B77-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B80-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-477</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B85-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B87-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-4</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B89-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-607</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B90-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>85</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B91-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>10</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B92-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B99-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>42</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B100-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-252</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B103-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-40</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B104-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B105-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B107-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>22</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B110-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-0</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.condenser"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B111-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>-36</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.generator"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B112-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>43</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B113-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>6</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:SynchronousMachine rdf:about="#_B116-G">
+        <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+        <cim:RotatingMachine.p>184</cim:RotatingMachine.p>
+        <cim:RotatingMachine.q>-0</cim:RotatingMachine.q>
+        <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
+        <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#SynchronousMachineOperatingMode.motor"/>
+    </cim:SynchronousMachine>
+    <cim:LinearShuntCompensator rdf:about="#_B5-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B34-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B37-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B44-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B45-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B46-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B48-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B74-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B79-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B82-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B83-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B105-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B107-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:LinearShuntCompensator rdf:about="#_B110-SH">
+        <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
+        <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    </cim:LinearShuntCompensator>
+    <cim:RegulatingControl rdf:about="#_B85-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.93</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B46-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>138.69</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B104-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.998</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B99-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>139.38</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B32-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>132.894</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B77-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>138.828</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B40-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.85999999999999</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B24-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>136.896</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B69-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>142.82999999999998</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B76-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>130.134</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B31-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.446</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B70-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.792</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B1-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>131.79</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B105-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.17</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B62-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>137.724</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B113-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>137.034</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B54-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>131.79</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B15-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.85999999999999</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B59-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.93</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B103-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>139.38</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B42-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.93</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B100-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>140.34599999999998</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B56-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>131.652</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B72-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.24</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B61-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>137.31</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B111-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.24</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B80-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>143.52</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B91-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.24</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B10-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>362.25</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B89-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>138.69</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B6-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>136.62</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B18-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>134.274</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B90-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.93</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B74-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>132.204</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B66-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>144.9</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B34-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.792</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B19-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>132.756</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B116-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>138.69</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B27-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>133.584</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B87-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>163.415</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B26-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>350.17499999999995</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B4-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>137.724</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B110-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>134.274</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B49-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>141.45</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B12-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>136.62</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B73-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>136.758</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B65-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>346.72499999999997</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B25-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>144.9</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B92-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>136.62</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B8-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>350.17499999999995</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B55-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>131.376</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B112-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>134.54999999999998</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B36-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>135.24</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:RegulatingControl rdf:about="#_B107-G_RC">
+        <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
+        <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+        <cim:RegulatingControl.targetDeadband>0</cim:RegulatingControl.targetDeadband>
+        <cim:RegulatingControl.targetValue>131.376</cim:RegulatingControl.targetValue>
+        <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#UnitMultiplier.k"/>
+    </cim:RegulatingControl>
+    <cim:Terminal rdf:about="#_B89-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B104-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B20-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L65-68-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L65-68-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B66-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-25-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-25-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-59-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-59-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-59-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-59-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L98-100-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L98-100-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B32-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B78-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B104-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B55-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L11-13-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L11-13-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B32-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-106-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-106-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B55-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B116-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L47-49-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L47-49-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B110-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B21-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B67-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L37-40-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L37-40-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B44-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B42-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B65-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B42-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B105-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L62-66-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L62-66-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L71-73-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L71-73-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L9-10-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L9-10-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L76-118-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L76-118-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L14-15-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L14-15-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B54-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B77-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B105-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-58-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-58-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L11-12-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L11-12-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B54-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B31-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-94-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-94-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-107-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-107-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B31-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B77-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T68-69-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T68-69-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T81-80-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T81-80-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B8-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-54-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-54-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B43-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B66-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L68-116-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L68-116-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B117-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L35-37-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L35-37-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-50-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-50-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L1-2-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L1-2-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B11-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B34-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B102-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-97-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-97-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B57-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-57-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L56-57-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L53-54-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L53-54-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L109-110-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L109-110-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-93-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-93-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-105-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-105-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B34-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B83-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T65-66-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T65-66-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B7-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B48-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L32-114-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L32-114-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L101-102-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L101-102-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B114-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B46-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B107-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B23-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L19-34-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L19-34-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L93-94-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L93-94-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-77-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-77-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-32-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-32-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B103-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-51-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-51-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B82-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L20-21-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L20-21-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-24-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-24-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-18-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-18-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B37-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L1-3-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L1-3-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B56-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B79-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B103-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-96-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-96-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B33-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T30-17-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T30-17-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B10-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L60-61-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L60-61-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L95-96-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L95-96-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-104-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-104-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B56-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B6-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L32-113-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L32-113-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L47-69-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L47-69-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B6-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L96-97-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L96-97-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L5-11-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L5-11-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L79-80-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L79-80-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B22-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B45-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B115-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B24-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L75-77-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L75-77-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L110-111-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L110-111-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L21-22-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L21-22-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B13-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B59-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B36-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B59-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-99-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-99-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B108-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L60-62-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L60-62-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L63-64-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L63-64-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B36-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-74-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-74-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-37-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-37-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L68-81-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L68-81-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-55-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-55-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B48-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B46-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B69-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L13-15-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L13-15-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L5-6-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L5-6-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-89-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-89-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-69-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-69-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B35-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B12-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B58-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B109-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-98-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L80-98-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-110-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L103-110-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-36-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-36-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B12-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-75-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-75-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-17-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-17-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-117-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-117-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B4-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B4-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-90-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-90-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-90-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-90-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-56-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-56-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L48-49-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L48-49-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B47-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L62-67-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L62-67-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L6-7-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L6-7-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L71-72-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L71-72-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T63-59-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T63-59-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B45-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-54-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-54-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L46-48-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L46-48-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-88-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-88-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-66-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-66-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B5-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-66-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L49-66-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B15-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B15-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B106-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L40-42-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L40-42-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-100-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-100-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B91-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L44-45-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L44-45-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B3-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L83-84-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L83-84-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B27-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T64-61-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T64-61-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B34-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B118-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B27-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B25-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L110-112-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L110-112-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B107-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L3-12-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L3-12-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L19-20-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L19-20-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L29-31-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L29-31-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B14-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B107-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L40-41-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L40-41-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B79-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B90-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-19-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-19-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B46-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L114-115-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L114-115-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B90-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B2-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L83-85-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L83-85-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-78-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-78-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B26-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B49-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B105-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B49-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L104-105-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L104-105-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L91-92-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L91-92-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-95-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-95-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-100-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-100-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L4-5-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L4-5-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L82-83-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L82-83-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L88-89-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L88-89-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-86-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L85-86-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B17-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B70-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B93-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-16-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-16-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B70-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B1-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B29-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B1-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-59-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L54-59-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L106-107-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L106-107-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L24-70-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L24-70-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L64-65-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L64-65-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B80-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B80-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L45-49-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L45-49-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-96-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L94-96-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L52-53-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L52-53-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L46-47-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L46-47-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B44-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L26-30-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L26-30-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B39-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B16-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L31-32-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L31-32-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L7-12-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L7-12-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B92-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B92-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-71-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L70-71-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-115-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-115-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L108-109-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L108-109-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L28-29-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L28-29-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-70-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-70-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B28-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B60-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B83-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-43-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L34-43-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L16-17-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L16-17-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L42-49-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L42-49-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L42-49-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L42-49-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B19-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-102-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L92-102-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B19-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B95-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-31-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-31-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B72-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L4-11-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L4-11-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-101-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-101-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L75-118-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L75-118-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L55-56-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L55-56-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B82-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B18-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L39-40-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L39-40-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L33-37-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L33-37-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B18-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B94-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L18-19-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L18-19-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-92-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-92-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L22-23-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L22-23-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-92-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L89-92-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L25-27-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L25-27-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L51-58-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L51-58-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L8-30-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L8-30-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L61-62-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L61-62-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L99-100-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L99-100-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B100-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B85-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B62-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B85-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B62-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B100-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L45-46-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L45-46-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L59-61-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L59-61-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L55-59-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L55-59-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L50-57-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L50-57-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-28-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L27-28-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-80-2_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-80-2_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B74-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B97-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B112-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-80-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-80-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B74-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B112-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B51-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-103-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-103-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T8-5-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T8-5-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L84-85-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L84-85-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B84-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-75-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L69-75-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B101-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B61-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L30-38-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L30-38-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B96-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B113-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B73-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L66-67-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L66-67-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B50-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L8-9-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L8-9-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-104-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-104-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L51-52-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L51-52-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L86-87-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L86-87-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T38-37-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T38-37-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L90-91-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L90-91-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B41-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B87-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B76-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B76-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B99-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B110-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-82-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L77-82-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B110-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L37-39-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L37-39-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B53-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-108-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L105-108-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L3-5-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L3-5-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-113-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L17-113-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-14-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L12-14-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-33-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L15-33-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T26-25-1_PT_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_T26-25-1_PT_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L2-12-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L2-12-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L82-96-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L82-96-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L74-75-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L74-75-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L35-36-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L35-36-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B88-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L24-72-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L24-72-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L59-60-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L59-60-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B40-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B86-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B40-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L43-44-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L43-44-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L78-79-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L78-79-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B98-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B111-G_SM_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B52-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B75-L_EC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L38-65-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L38-65-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-32-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L23-32-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L41-42-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L41-42-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-106-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L100-106-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L76-77-1_ACLS_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_L76-77-1_ACLS_T_2">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+    <cim:Terminal rdf:about="#_B74-SH_SC_T_1">
+        <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+    </cim:Terminal>
+</rdf:RDF>

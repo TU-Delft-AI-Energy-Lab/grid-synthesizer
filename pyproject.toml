@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "powergrid_synth"
+version = "0.1.1"
+description = "Synthetic power grid generator based on Chung-Lu-Chain model and MATPOWER SynGrid for the transmission grid system. The distribution grid synthesization is under development. This package is maintained by the AI Energy Lab at TU Delft." 
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.2",
+    "networkx>=3.4",
+    "scipy>=1.15",
+    "matplotlib>=3.5",
+    "pandas>=2.3,<3",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["."] 
+include = ["powergrid_synth*"] 
+exclude = ["demos*", "tests*"] 
+
+[project.optional-dependencies]
+export = [
+    "pandapower>=3.3,<4",
+    "numba>=0.61.2",
+    "lightsim2grid",
+    "pypowsybl>=1.14,<2",
+    "pypowsybl-jupyter>=1.0",
+]
+full = [
+    "pandapower>=3.3,<4",
+    "numba>=0.61.2",
+    "lightsim2grid",
+    "pypowsybl>=1.14,<2",
+    "pypowsybl-jupyter>=1.0",
+]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "build"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer"
+"Documentation" = "https://power-grid-synthesizer.readthedocs.io/en/latest/"
+"Bug Tracker" = "https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer/issues"

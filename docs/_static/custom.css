@@ -1,0 +1,12 @@
+/* Changes the font and size of the TOC links in the main body */
+.toctree-wrapper ul li a {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #342ee2;
+}
+
+/* Changes the sidebar navigation font specifically */
+.wy-menu-vertical a {
+    font-size: 14px !important;
+}

@@ -1,6 +1,6 @@
 # PowerGridSynth
 
-![CI Status](https://github.com/cookbook-ms/Chung_Lu_Chain-synthesizer/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer/actions/workflows/ci.yml/badge.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -19,7 +19,7 @@ Full documentation (theory, API reference, tutorials): [power-grid-synthesizer.r
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/cookbook-ms/Chung_Lu_Chain-synthesizer.git
+git clone https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer.git
 cd Chung_Lu_Chain-synthesizer
 ```
 2. Create and activate a virtual environment (e.g. with `uv`):
@@ -161,10 +161,12 @@ Statistical parameters are stored in `reference_data.py` for reference systems (
 |----------|-------|-------|
 | `examples/transmission/Synthesize.ipynb` | **High-level synthesis** — full pipeline in one call (Mode I & II) | |
 | `examples/transmission/SynthesizePypowsybl.ipynb` | **pypowsybl formats** — load IEEE-118 from built-in and CGMES | |
-| `examples/transmission/TopologyGeneration.ipynb` | CLC topology generation and input configuration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/TopologyGeneration_colab.ipynb) |
-| `examples/transmission/BusTypeAssignment.ipynb` | AIS bus-type allocation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/BusTypeAssignment_colab.ipynb) |
-| `examples/transmission/GenLoadSettings.ipynb` | Generation capacity and load allocation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/GenLoadSettings_colab.ipynb) |
-| `examples/transmission/ieee_test.ipynb` | Validation against IEEE test cases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/ieee_test_colab.ipynb) |
+| `examples/transmission/TopologyGeneration.ipynb` | CLC topology generation and input configuration | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/TopologyGeneration_colab.ipynb) |
+| `examples/transmission/BusTypeAssignment.ipynb` | AIS bus-type allocation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/BusTypeAssignment_colab.ipynb) |
+| `examples/transmission/GenLoadSettings.ipynb` | Generation capacity and load allocation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/GenLoadSettings_colab.ipynb) |
+| `examples/transmission/ieee_test.ipynb` | Validation against IEEE118 test cases | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/ieee_test_colab.ipynb) |
+| `examples/tranmission/pegase9241_test.ipynb` | Large-scale test | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/pegase9241_test_colab.ipynb) |
+| `examples/tranmission/rte7k_from_source_file.ipynb` | Large-scale test using RTE7000 data | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/rte7k_from_source_file_colab.ipynb) |
 
 ---
 

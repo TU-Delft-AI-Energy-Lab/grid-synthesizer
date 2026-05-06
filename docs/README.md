@@ -1,6 +1,6 @@
 # Getting Started
 
-**Source code:** [GitHub repository](https://github.com/cookbook-ms/Chung_Lu_Chain-synthesizer)
+**Source code:** [GitHub repository](https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer)
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install powergridsynth
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/cookbook-ms/Chung_Lu_Chain-synthesizer.git
+git clone https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer.git
 cd Chung_Lu_Chain-synthesizer
 ```
 

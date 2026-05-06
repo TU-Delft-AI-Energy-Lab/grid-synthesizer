@@ -39,22 +39,22 @@ control over individual pipeline stages.
 
 
 .. |colab_topo| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/TopologyGeneration_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/TopologyGeneration_colab.ipynb
 
 .. |colab_bus| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/BusTypeAssignment_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/BusTypeAssignment_colab.ipynb
 
 .. |colab_gen| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/GenLoadSettings_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/GenLoadSettings_colab.ipynb
 
 .. |colab_ieee| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/ieee_test_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/ieee_test_colab.ipynb
 
 .. |colab_pegase| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/pegase9241_test_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/pegase9241_test_colab.ipynb
 
 .. |colab_rte7k| image:: https://colab.research.google.com/assets/colab-badge.svg
-   :target: https://colab.research.google.com/github/cookbook-ms/Chung_Lu_Chain-synthesizer/blob/main/examples/colab/rte7k_from_source_file_colab.ipynb
+   :target: https://colab.research.google.com/github/TU-Delft-AI-Energy-Lab/grid-synthesizer/blob/main/examples/colab/rte7k_from_source_file_colab.ipynb
 
 Here is a brief example showing how to configure the user input, and then generate, and visualize a synthetic power grid.
 

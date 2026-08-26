@@ -87,6 +87,11 @@ from .input_configurator import InputConfigurator
 from ..core.input_extractor import extract_topology_params_from_graph
 from .load_allocator import LoadAllocator
 from .transmission import TransmissionLineAllocator
+from ..privacy import engine as _perturb_engine
+from ..privacy import settings as _perturb_settings
+from ..privacy.registry import Domain, Mode, get_descriptor
+from ..privacy.report import build_report
+from ..privacy.rng import make_rng, resolve_seed
 
 
 def _get_pandapower_cases() -> Dict[str, object]:
@@ -152,6 +157,7 @@ def synthesize(
     loading_level: str = "H",
     refine_topology: bool = False,
     base_kv_map: Optional[Dict[int, float]] = None,
+    perturbation_config=None,
     output_dir: str = "output",
     output_name: str = "synthetic_grid",
     export_formats: Sequence[str] = ("json",),
@@ -213,6 +219,17 @@ def synthesize(
         Custom ``{level_index: kV}`` mapping.  If ``None`` and
         ``mode="reference"``, the mapping is extracted from the reference
         grid.
+    perturbation_config : str, path, dict or PerturbationSettings, optional
+        Controls how much of the reference grid reaches the synthetic one.
+        Each registered input is handled in one of three modes — ``raw``
+        (passed through untouched), ``perturb`` (displaced by calibrated
+        noise) or ``off`` (never read; a public fallback is used instead).
+        ``None`` keeps every parameter at its registry default, which is
+        ``raw``, so the pipeline behaves exactly as it did before this
+        argument existed.  See :mod:`powergrid_synth.privacy.settings` for
+        the configuration format, and ``perturbation.example.toml`` for a
+        worked file.  Only applies in ``mode="reference"``; a synthetic run
+        reads no reference values and so has nothing to protect.
     output_dir : str
         Directory for exported files (created if needed).
     output_name : str
@@ -259,6 +276,18 @@ def synthesize(
     # ------------------------------------------------------------------
     # 1. Obtain topology parameters
     # ------------------------------------------------------------------
+    # Perturbation state — initialised here so it is in scope after the mode
+    # branch.  The node-count offset is applied after topology generation and
+    # LCC filtering (step [2.5]) and needs the settings regardless of mode.
+    _perturb = _perturb_settings.coerce(perturbation_config)
+    _resolved_seed = resolve_seed(_perturb.seed if _perturb.seed is not None else seed)
+    _perturb_details: Dict[str, Dict] = {}
+    _perturb_fallbacks: Dict[str, bool] = {}
+
+    def _stream_rng(stream_name: str):
+        """RNG for one noise stream, keyed by the resolved seed."""
+        return make_rng(_resolved_seed, stream_name)
+
     if mode == "reference":
         graph_ref = _load_reference(
             reference_net=reference_net,
@@ -270,6 +299,59 @@ def synthesize(
         # Use the reference grid's base_kv_map unless the user overrides.
         if base_kv_map is None:
             base_kv_map = graph_ref.graph.get("base_kv_map")
+
+        if _perturb.mode_of('base_kv_map') is Mode.OFF:
+            # Never publish the reference grid's real nominal voltages; the
+            # exporter falls back to its generic level map.
+            base_kv_map = None
+            graph_ref.graph.pop('base_kv_map', None)
+
+        if _perturb.should_perturb('diameters_by_level'):
+            _span_descriptor = get_descriptor('diameters_by_level')
+            _span_strength = _perturb.strength_of('diameters_by_level')
+            _spans_before = list(params.get('diameters_by_level', []))
+            _spans_after = []
+            for _level, _span in enumerate(_spans_before):
+                if _span <= 0:
+                    # A span of zero means the level holds a single bus or
+                    # none.  Displacing it would invent an extent the level
+                    # does not have, so structural zeros are preserved.
+                    _spans_after.append(_span)
+                    continue
+                _spans_after.append(
+                    _perturb_engine.perturb_integer_value(
+                        _span_descriptor,
+                        int(_span),
+                        strength=_span_strength,
+                        rng=_stream_rng(f'topology.span[level={_level}]'),
+                    )
+                )
+            params['diameters_by_level'] = _spans_after
+            _perturb_details['diameters_by_level'] = {
+                'target_before': _spans_before,
+                'target_after': _spans_after,
+            }
+
+        if _perturb.should_perturb('degrees_by_level'):
+            _deg_descriptor = get_descriptor('degrees_by_level')
+            _strength = _perturb.strength_of('degrees_by_level')
+            _new_degrees, _n_fallbacks = [], 0
+            for _level, _sequence in enumerate(params.get('degrees_by_level', [])):
+                _seq, _attempts, _fell_back = _perturb_engine.perturb_degree_sequence(
+                    _deg_descriptor,
+                    _sequence,
+                    strength=_strength,
+                    rng=_stream_rng(f'topology.degree_dist[level={_level}]'),
+                )
+                _new_degrees.append(_seq)
+                _n_fallbacks += int(_fell_back)
+            params['degrees_by_level'] = _new_degrees
+            if _n_fallbacks:
+                _perturb_fallbacks['degrees_by_level'] = True
+                print(
+                    f"  [1.5] degrees_by_level: {_n_fallbacks} level(s) fell back "
+                    "to the unperturbed sequence (no graphical resample found)."
+                )
 
         print(
             f"[1] Loaded reference grid: "
@@ -297,6 +379,49 @@ def synthesize(
         f"{graph.number_of_nodes()} nodes, "
         f"{graph.number_of_edges()} edges."
     )
+
+    # ------------------------------------------------------------------
+    # 2.5  Node-count offset, applied to the generated graph after LCC
+    #      filtering so the non-linear filter cannot distort the noise.
+    # ------------------------------------------------------------------
+    if _perturb.should_perturb("node_count"):
+        graph, _level_deltas = _perturb_engine.perturb_graph_node_count(
+            graph,
+            descriptor=get_descriptor("node_count"),
+            strength=_perturb.strength_of("node_count"),
+            rng_for_level=lambda level: _stream_rng(
+                f"topology.node_count[level={level}]"
+            ),
+        )
+        _total_delta = sum(_level_deltas.values())
+        _perturb_details["node_count"] = {
+            "per_level_delta": {str(k): v for k, v in _level_deltas.items()},
+            "total_delta": _total_delta,
+        }
+        if _total_delta != 0:
+            print(
+                f"  [2.5] node_count: total bus delta = {_total_delta:+d} "
+                f"(per level: {_level_deltas})"
+            )
+
+    # The span is a generator target, not an output value, so confirm the
+    # displacement survived into the graph an adversary would observe.
+    if _perturb.should_perturb("diameters_by_level"):
+        _realised_spans = _measure_spans_by_level(graph)
+        _span_detail = _perturb_details.setdefault("diameters_by_level", {})
+        _span_detail["realised"] = _realised_spans
+        _targets = _span_detail.get("target_after", [])
+        _moved = any(
+            target != realised
+            for target, realised in zip(_span_detail.get("target_before", []), _realised_spans)
+        )
+        if _targets and not _moved:
+            _perturb_fallbacks["diameters_by_level"] = True
+            print(
+                "  [2.5] diameters_by_level: the displaced span target was not "
+                "realised in the generated graph; treat this parameter as "
+                "unperturbed for this run."
+            )
 
     # ------------------------------------------------------------------
     # 3. Assign bus types
@@ -385,8 +510,58 @@ def synthesize(
 
         print(f"  -> Exported {fmt_lower}: {filepath}")
 
+    # ------------------------------------------------------------------
+    # 9. Perturbation report — what was protected, and what was not.
+    # ------------------------------------------------------------------
+    _report = build_report(
+        _perturb,
+        Domain.TRANSMISSION,
+        _resolved_seed,
+        details=_perturb_details,
+        fallbacks=_perturb_fallbacks,
+    )
+    for _line in _report.summary_lines():
+        print(_line)
+    if output_dir:
+        _report.write_json(
+            os.path.join(output_dir, output_name + "_perturbation_report.json")
+        )
+    graph.graph["perturbation_report"] = _report.to_dict()
+
     print("[8] Done.")
     return graph
+
+
+def _measure_spans_by_level(graph) -> List[int]:
+    """Return the realised network span of each voltage level.
+
+    The span is the diameter of the level's largest connected component, which
+    is what the topology generator is asked to target and what an observer of
+    the published grid can measure.
+
+    Args:
+        graph: Generated topology whose nodes carry ``voltage_level``.
+
+    Returns:
+        Span per level, indexed by level number; ``0`` for an empty level.
+    """
+    nodes_by_level: Dict[int, List] = {}
+    for node, data in graph.nodes(data=True):
+        nodes_by_level.setdefault(int(data.get("voltage_level", 0)), []).append(node)
+
+    spans: List[int] = []
+    for level in range(max(nodes_by_level) + 1 if nodes_by_level else 0):
+        nodes = nodes_by_level.get(level, [])
+        if not nodes:
+            spans.append(0)
+            continue
+        subgraph = graph.subgraph(nodes)
+        if subgraph.number_of_nodes() < 2:
+            spans.append(0)
+            continue
+        component = max(nx.connected_components(subgraph), key=len)
+        spans.append(int(nx.diameter(subgraph.subgraph(component))))
+    return spans
 
 
 # ------------------------------------------------------------------

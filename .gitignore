@@ -72,3 +72,11 @@ docs/bin
 program.md
 report_status_*.md
 workplan.md
+
+# Scratch and results from the recovery study scripts
+output/topology_study/
+output/topology_study_results.json
+output/topology_recovery.png
+output/noise_mechanism.png
+output/synthetic_structure.png
+Reports/

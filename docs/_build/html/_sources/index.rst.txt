@@ -8,7 +8,7 @@ PowerGridSynth
 
 Synthesised grids can be **exported to 12+ industry-standard formats** via `pandapower <https://www.pandapower.org/>`_ and `pypowsybl <https://pypowsybl.readthedocs.io/>`_ and validated with **DC and AC power-flow solvers** from both libraries.
 
-The goal of the project is to provide synthetic yet realistic power grids for grid modeling, simulation and analysis, with the ultimate goal of building **Foundation Models** for power grids. It is part of `LF Energy <https://lfenergy.org>`_, a Linux Foundation focused on the energy sector. This project is supported by `AI-EFFECT <https://ai-effect.eu/>`_ (Artificial Intelligence Experimentation Facility For the Energy Sector).
+The goal of the project is to provide synthetic yet realistic power grids for grid modeling, simulation and analysis, with the ultimate goal of building **Foundation Models** for power grids. This project is supported by `AI-EFFECT <https://ai-effect.eu/>`_ (Artificial Intelligence Experimentation Facility For the Energy Sector).
 
 
 Transmission Grid Synthesis

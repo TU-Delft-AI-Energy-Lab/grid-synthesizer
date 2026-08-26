@@ -1,0 +1,104 @@
+#############################################################################
+# PowerGridSynth — perturbation configuration
+#
+# Controls how much of the reference network reaches the synthetic output.
+# Copy this file, edit it, and pass the path to synthesize() or
+# synthesize_distribution() as `perturbation_config`.
+#
+# ILLUSTRATIVE, NOT RECOMMENDED. The strengths below demonstrate the format.
+# No value is a recommendation: the right setting depends on the grid and on
+# what the data owner considers disclosable. Validate against your own
+# reference network rather than inheriting a number from an example.
+#############################################################################
+
+# ---------------------------------------------------------------------------
+# Global settings
+# ---------------------------------------------------------------------------
+
+# Perturbation strength applied to every parameter that does not override it.
+#   0.0  no perturbation at all — maximum realism, nothing protected
+#   0.4  moderate displacement
+#   1.0  strong displacement — Laplace scale 1.0 in transformed units
+# Permitted range is 0.0 to 10.0. Values above ~2.0 distort the grid heavily.
+#
+# This means the same thing on every grid. It does not get divided up, so
+# adding voltage levels or new parameters never weakens the others.
+strength = 0.4
+
+# Top-level seed. Omit for fresh entropy on each run.
+#
+# IMPORTANT: fresh entropy is sound only if you publish ONE batch of synthetic
+# grids per reference network. If you publish more than one batch from the
+# same reference, independent noise draws average out across batches and an
+# adversary pooling across them recovers what pooling within one batch cannot.
+# In that case, fix the seed so every batch carries the identical offset.
+seed = 42
+
+# ---------------------------------------------------------------------------
+# Per-parameter overrides
+#
+#   mode = "off"      never read from the reference; use the public built-in
+#                     value instead. Strongest protection: a value that is
+#                     never read cannot leak.
+#   mode = "perturb"  read from the reference and add noise.
+#   mode = "raw"      read from the reference and use unchanged.
+#
+# Omitted parameters take their default mode and the global strength.
+# An unknown name, or a mode a parameter does not support, is an error.
+# ---------------------------------------------------------------------------
+
+# --- Transmission: topology -------------------------------------------------
+
+# Connection-count pattern per voltage level. Supports perturb and raw only:
+# reference-mode topology cannot be built without it.
+[parameters.degrees_by_level]
+mode = "perturb"
+strength = 0.3          # topology drives realism; perturb gently
+
+# Number of buses per voltage level. Noise is in buses, not a fraction, so a
+# strength of 1.0 corresponds to a Laplace scale of about 4.5 buses.
+[parameters.node_count]
+mode = "perturb"
+strength = 0.5
+
+# Network span: the largest number of consecutive lines between any two buses
+# at a level. Noise is in hops, so strength 1.0 is a Laplace scale of 2 hops.
+# A level with a span of zero holds one bus or none and is left alone.
+[parameters.diameters_by_level]
+mode = "perturb"
+strength = 1.0
+
+# Nominal voltage levels in kV. Supports off and raw only — arbitrary noise
+# would produce non-standard voltages. Left raw, the reference grid's real kV
+# values appear verbatim in the output.
+[parameters.base_kv_map]
+mode = "raw"
+
+# ---------------------------------------------------------------------------
+# Distribution pipeline
+#
+# Same file, same strength semantics. Only the pipeline actually running
+# resolves these; a transmission run ignores them entirely.
+#
+# Names contain a dot, so the table header must be quoted as shown.
+# ---------------------------------------------------------------------------
+
+[parameters."dist.hop_dist"]
+mode = "raw"            # feeder depth drives realism
+
+[parameters."dist.degree_dist"]
+mode = "perturb"
+strength = 0.3
+
+[parameters."dist.cable_length"]
+mode = "perturb"
+strength = 0.6          # corridor build detail
+
+[parameters."dist.load_deviation"]
+mode = "perturb"
+strength = 0.4
+
+# Feeder-size kernel density model. Not used by the pipeline today; supports
+# off and raw only.
+[parameters."dist.input_model"]
+mode = "off"

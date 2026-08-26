@@ -64,6 +64,11 @@ from typing import Dict, List, Optional, Sequence, Union
 import networkx as nx
 
 from .distribution_analysis import fit_params_from_feeders
+from ..privacy import engine as _perturb_engine
+from ..privacy import settings as _perturb_settings
+from ..privacy.registry import Domain, Mode, descriptors_for_domain, get_descriptor
+from ..privacy.report import build_report
+from ..privacy.rng import make_rng, resolve_seed
 from .distribution_converter import (
     feeder_summary,
     pandapower_to_feeders,
@@ -114,6 +119,81 @@ def _is_pypowsybl_network(obj) -> bool:
     return type(obj).__module__.startswith("pypowsybl")
 
 
+
+# ---------------------------------------------------------------------------
+# Perturbation of fitted feeder parameters
+# ---------------------------------------------------------------------------
+
+# Maps each registered distribution parameter to the DistributionSynthParams
+# attribute holding it.  Keeping this here rather than in the registry avoids
+# importing the Schweitzer parameter classes into the privacy package.
+_DISTRIBUTION_PARAM_ATTRIBUTES = {
+    "dist.hop_dist": "hop_dist",
+    "dist.degree_dist": "degree_dist",
+    "dist.degree_clip": "degree_clip",
+    "dist.intermediate_frac": "intermediate_frac",
+    "dist.injection_frac": "injection_frac",
+    "dist.load_deviation": "load_deviation",
+    "dist.cable_length": "cable_length",
+    "dist.length_clip": "length_clip",
+}
+
+
+def _apply_perturbation(fitted_params, perturb_settings, resolved_seed):
+    """Apply the registry's perturbation rules to fitted feeder parameters.
+
+    Each registered distribution parameter maps to one dataclass on
+    :class:`DistributionSynthParams`.  Depending on the resolved mode, that
+    dataclass is left as fitted, replaced by its published Schweitzer default,
+    or perturbed field by field.
+
+    Args:
+        fitted_params: Parameters fitted from the reference feeders.  Not
+            modified; a copy is returned.
+        perturb_settings: Resolved perturbation settings.
+        resolved_seed: Seed keying every noise stream, so noise is drawn once
+            per run (FR-11).
+
+    Returns:
+        A new ``DistributionSynthParams`` with the configured perturbation
+        applied.
+    """
+    import copy as _copy
+
+    perturbed_params = _copy.deepcopy(fitted_params)
+    published_defaults = DistributionSynthParams()
+
+    for parameter_name, attribute in _DISTRIBUTION_PARAM_ATTRIBUTES.items():
+        mode = perturb_settings.mode_of(parameter_name)
+
+        if mode is Mode.OFF:
+            # Never read the reference value: fall back to the published
+            # Schweitzer default for this family.
+            setattr(perturbed_params, attribute, getattr(published_defaults, attribute))
+            continue
+
+        if not perturb_settings.should_perturb(parameter_name):
+            continue
+
+        descriptor = get_descriptor(parameter_name)
+        fitted_family = getattr(perturbed_params, attribute)
+        as_mapping = {
+            spec.key: getattr(fitted_family, spec.key)
+            for spec in descriptor.fields
+            if hasattr(fitted_family, spec.key)
+        }
+        noisy_mapping = _perturb_engine.perturb_scalar_family(
+            descriptor,
+            as_mapping,
+            strength=perturb_settings.strength_of(parameter_name),
+            rng=make_rng(resolved_seed, parameter_name),
+        )
+        for key, value in noisy_mapping.items():
+            setattr(fitted_family, key, value)
+
+    return perturbed_params
+
+
 def synthesize_distribution(
     *,
     mode: str,
@@ -136,6 +216,7 @@ def synthesize_distribution(
     output_dir: Optional[str] = None,
     output_name: str = "synthetic_feeder",
     export_formats: Sequence[str] = ("json",),
+    perturbation_config=None,
 ) -> List[nx.Graph]:
     """Run the full Schweitzer distribution synthesis pipeline.
 
@@ -224,6 +305,9 @@ def synthesize_distribution(
     # 1. Obtain synthesis parameters
     # ------------------------------------------------------------------
     ref_feeders = None
+    _perturb = _perturb_settings.coerce(perturbation_config)
+    _resolved_seed = resolve_seed(_perturb.seed if _perturb.seed is not None else seed)
+
     if mode == "reference":
         ref_feeders = _load_reference_feeders(
             reference_net=reference_net,
@@ -231,6 +315,9 @@ def synthesize_distribution(
             reference_case=reference_case,
         )
         fitted_params = fit_params_from_feeders(ref_feeders)
+        fitted_params = _apply_perturbation(
+            fitted_params, _perturb, _resolved_seed
+        )
         summary = feeder_summary(ref_feeders)
         n_ref = len(ref_feeders)
         avg_nodes = sum(s["n_nodes"] for s in summary) / n_ref if n_ref else 0
@@ -305,6 +392,17 @@ def synthesize_distribution(
             export_formats=export_formats,
         )
         print(f"[4] Exported to {output_dir}/")
+
+    # ------------------------------------------------------------------
+    # Perturbation report — what was protected, and what was not (FR-10).
+    # ------------------------------------------------------------------
+    _report = build_report(_perturb, Domain.DISTRIBUTION, _resolved_seed)
+    for _line in _report.summary_lines():
+        print(_line)
+    if output_dir:
+        _report.write_json(
+            os.path.join(output_dir, output_name + "_perturbation_report.json")
+        )
 
     print("[Done]")
     return synthetic_feeders

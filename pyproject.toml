@@ -14,6 +14,9 @@ dependencies = [
     "scipy>=1.15",
     "matplotlib>=3.5",
     "pandas>=2.3,<3",
+    # tomllib entered the standard library in 3.11; tomli is the backport used
+    # to read perturbation configuration files on 3.10.
+    "tomli>=2.0; python_version < '3.11'",
 ]
 
 
@@ -47,3 +50,8 @@ dev = [
 "Homepage" = "https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer"
 "Documentation" = "https://power-grid-synthesizer.readthedocs.io/en/latest/"
 "Bug Tracker" = "https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer/issues"
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]

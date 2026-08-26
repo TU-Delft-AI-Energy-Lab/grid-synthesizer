@@ -262,6 +262,83 @@ feeder = DistributionGrid.from_nx(
 
 ---
 
+## Protecting the Reference Grid
+
+In reference mode the synthesiser reads statistics from a real network. When
+that network is confidential, `perturbation_config` controls how much of it
+reaches the synthetic output. Each registered input is handled in one of three
+modes:
+
+| Mode | Behaviour |
+|------|-----------|
+| `raw` | Read from the reference and used unchanged. **Default for every parameter.** |
+| `perturb` | Read and displaced by calibrated noise before use. |
+| `off` | Never reaches the output; a public built-in value is used instead. |
+
+```python
+from powergrid_synth import synthesize
+
+grid = synthesize(
+    mode="reference",
+    reference_case="case118",
+    seed=42,
+    perturbation_config={
+        "strength": 1.0,
+        "seed": 7,                      # fix per release, see the warning below
+        "parameters": {
+            "degrees_by_level": {"mode": "perturb"},
+            "node_count": {"mode": "perturb"},
+            "base_kv_map": {"mode": "off"},
+        },
+    },
+)
+
+print(grid.graph["perturbation_report"])   # what was protected, and what was not
+```
+
+A TOML path or a `PerturbationSettings` object works in place of the mapping —
+see [`perturbation.example.toml`](perturbation.example.toml). The same argument
+works for `synthesize_distribution()`.
+
+Since every parameter defaults to `raw`, passing nothing reproduces the
+unprotected behaviour exactly.
+
+Every run writes an audit record — mode, strength, noise scale, resolved seed
+and any fallback, per parameter — next to the exported grid as
+`<output_name>_perturbation_report.json`. Retain it alongside a release.
+
+> **Publish one batch per reference.** Noise is drawn once per run, so pooling
+> grids *within* a release cannot average it away. Publishing several batches
+> from the same reference with fresh entropy breaks that: fix the seed so every
+> batch carries the identical offset.
+
+Protection is evidenced by measurement, not by a theorem, and the measurements
+establish it for some parameters and not others. Simulate a pooling adversary
+against your own reference before relying on a configuration:
+
+```bash
+python scripts/measure_topology_recovery.py --reference-case case118 --n-grids 30
+python scripts/make_recovery_figure.py
+```
+
+See the [theory page](https://power-grid-synthesizer.readthedocs.io/en/latest/theory/perturbation.html)
+for the mechanism, the threat model, the registered parameters, and what the
+measurements do and do not establish.
+
+### Modules
+
+| Module | Description |
+|--------|-------------|
+| `privacy/registry.py` | `REGISTRY` — every reference-derived input, its shape, transform and permitted modes |
+| `privacy/settings.py` | `PerturbationSettings` — configuration parsing, validation and mode resolution |
+| `privacy/engine.py` | Shape-dispatched perturbation: scalar families, probability vectors, integers, degree sequences, graph node counts |
+| `privacy/noise.py` | Laplace draws and the logit / log / affine-logit transforms |
+| `privacy/rng.py` | Per-stream seeding, so each parameter draws independently and reproducibly |
+| `privacy/report.py` | `build_report` — the per-run audit record |
+| `privacy/recovery.py` | Adversary estimators used to measure what perturbation actually protects |
+
+---
+
 ## Shared Infrastructure
 
 ### Analysis, Export & Visualisation

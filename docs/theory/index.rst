@@ -9,3 +9,4 @@ Here we explain the methods behind each module.
 
    transmission
    distribution
+   perturbation

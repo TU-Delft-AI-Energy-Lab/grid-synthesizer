@@ -400,6 +400,10 @@ pytest tests/ -v
 4. Sadeghian et al. (2018). "A Novel Algorithm for Statistical Assignment of Transmission Capacities in Synthetic Grid Modeling." *IEEE PESGM*. [DOI:10.1109/PESGM.2018.8585532](https://ieeexplore.ieee.org/document/8585532)
 5. Schweitzer et al. (2017). "Automated Generation Models for Synthetic Power Distribution Grids." *IEEE Trans. Power Syst.*, 32(5), 3974–3985. [DOI:10.1109/TPWRS.2017.2694839](https://ieeexplore.ieee.org/document/7895177)
 
+## Acknowledgements
+
+This project has received funding from the European Union's Horizon Europe research and innovation programme under grant agreement No. 101172952 ([AI-EFFECT](https://ai-effect.eu/) — Artificial Intelligence Experimentation Facility For the Energy Sector).
+
 ## License
 
-MIT
+Apache 2.0

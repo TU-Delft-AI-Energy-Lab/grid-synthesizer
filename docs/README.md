@@ -15,7 +15,7 @@ pip install powergridsynth
 1. Clone the repository:
 ```bash
 git clone https://github.com/TU-Delft-AI-Energy-Lab/grid-synthesizer.git
-cd Chung_Lu_Chain-synthesizer
+cd grid-synthesizer
 ```
 
 2. Create and activate a virtual environment (e.g. with `uv`):

@@ -92,8 +92,8 @@ html_theme_options = {
 
 html_context = {
     'display_github': True,
-    'github_user': 'cookbook-ms',
-    'github_repo': 'Chung_Lu_Chain-synthesizer',
+    'github_user': 'TU-Delft-AI-Energy-Lab',
+    'github_repo': 'grid-synthesizer',
     'github_version': 'main',
     'conf_py_path': '/docs/',
 }
